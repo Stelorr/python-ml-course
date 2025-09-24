@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Virtual environment
+portfolio_env/
+venv/
+env/
+
+# IDE
+.vscode/
+.DS_Store
+
+# Django
+*.log
+db.sqlite3
+media/
+
+# Environment variables
+.env
