@@ -15,15 +15,6 @@ def learning_session(hours_studied, topic_studied, difficulty_level = 3, notes =
         'notes': notes
     }
 
-# # test case
-# # Should work
-# result = learning_session(2, "Python basics", 3, "Great session!")
-# print(result)
-
-# # Should give error
-# result = learning_session(10, "Too long", 7, "Invalid data")
-# print(result)
-
 # Function to perform weekly analysis and provides recommendations based on data
 def weekly_analyzer(session_list):
     total_hours = 0
@@ -75,17 +66,3 @@ def weekly_analyzer(session_list):
         'recommendation': recommendation
     }
 
-
-# # test case
-# # Create multiple sessions using your learning_session function
-# session1 = learning_session(1.5, "Python basics", 2, "Good start")
-# session2 = learning_session(2.0, "Functions", 3, "Challenging")
-# session3 = learning_session(1.0, "Python basics", 2, "Review")
-# session4 = learning_session(2.5, "Control flow", 4, "Hard but useful")
-
-# # Put them in a list
-# weekly_sessions = [session1, session2, session3, session4]
-
-# # Now test your weekly_analyzer
-# weekly_result = weekly_analyzer(weekly_sessions)
-# print(weekly_result)
